@@ -6,9 +6,9 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:mysql://root:ilIVViBStDbHESuBqyokHVMvDobsyGJN@maglev.proxy.rlwy.net:33278/railway
-    username: authdatabase
-    password: karlmarx
+    url: jdbc:postgresql://auth_htmx_user:qDdbNDIspJXGntagaEDXe4ciHTWHaESi@dpg-d0uphcbipnbc73epda20-a.oregon-postgres.render.com/auth_htmx
+    username: auth_htmx
+    password: qDdbNDIspJXGntagaEDXe4ciHTWHaESi
     driver-class-name: com.mysql.cj.jdbc.Driver
   
   jpa:
